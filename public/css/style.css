@@ -1,0 +1,111 @@
+body {
+	margin:0;
+	background-color: rgb(93,94,95);
+}
+
+@font-face{
+	font-family: futura_medium_bt;
+	src: url("../fonts/futura_medium_bt.ttf");
+}
+
+@font-face{
+	font-family: futura_medium_condensed_bt;
+	src: url("../fonts/futura_medium_condensed_bt.ttf");
+}
+
+#wrapper {
+	margin: 120px auto;
+	width: 967px;
+}
+
+#user {
+	width: 370px;
+	height: 482px;
+	background-color: rgb(255,255,255);
+	float: left;
+}
+
+#text {
+	position: relative;
+	vertical-align: middle;
+	margin-bottom: 49px;
+}
+
+#map {
+	width: 597px;
+	height: 482px;
+	float: right;
+}
+
+
+#userset {
+	font-family: futura_medium_bt;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	background-color: rgb(49,183,233);
+	height: 32px;
+	margin: 0 auto;
+	padding: 8px 10px;
+}
+
+input {
+	font-family: futura_medium_condensed_bt;
+	border: 1px solid rgb(232, 235, 237);
+	display: block;
+	border-radius: 5px;
+	margin: 10px 0px 34px 28px;
+	height: 40px;
+	width: 317px;
+	background-color: rgb(232, 235, 237);
+	padding: 10px;
+	position: relative
+}
+
+#fname {
+	width: 145px;
+	margin: 0px 0px 34px 28px;
+	float:left;
+}
+
+#lname {
+	width: 145px;
+	margin: 0px 0px 34px 28px;
+	float: left;
+}
+
+#cistac {
+	clear: both;
+
+}
+
+#cistac2{
+	float: left;
+	position: relative;
+}
+
+#add-user {
+	font-family: futura_medium_bt;
+	background-color: rgb(93, 94, 95);
+	color: rgb(255, 255, 255);
+	font-weight: normal;
+	margin-top: 50px;
+}
+
+input.errors{
+	background-color: #ff757f;
+}
+
+input.errors::placeholder {
+  color: white;
+}
+
+.errInfo {
+	font-family: futura_medium_condensed_bt;
+	color: red;
+	float: right;
+	font-size: 12px;
+	position: absolute;
+	margin-left: 35px;
+	margin-top: -15px;
+}
